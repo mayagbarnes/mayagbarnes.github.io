@@ -1865,6 +1865,10 @@ input, select, textarea {
 		font-size: 1.2em;
 	}
 
+	#projects header p {
+		margin-bottom: 3em;
+	}
+
 	#projects p {
 		margin: 0 0 1em 0;
 	}
@@ -1947,6 +1951,10 @@ input, select, textarea {
 
 /* Icon */
 
+	.fa-envelope-open-text {
+		font-size: 2.5em;
+	}
+
 	.icon {
 		text-decoration: none;
 		position: relative;
@@ -1975,6 +1983,8 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			/* Additions */
+			font-size: 1.25em;
 		}
 
 		.icon.circle {
@@ -1993,12 +2003,41 @@ input, select, textarea {
 			text-decoration: none;
 			top: 0;
 			width: 2.25em;
+			/* Additions: */
+			font-size: 2em;
 		}
 
 			.icon.circle:hover {
 				top: -0.2em;
 			}
 
+			.icon.circle.fa-linkedin-in {
+				background: #2867B2;
+				color: #fff;
+			}
+
+				.icon.circle.fa-linkedin-in:hover {
+					background: #3d88e4;
+				}
+			
+			.icon.circle.fa-github {
+				background: #dcad8b;
+				color: #fff;
+			}
+
+				.icon.circle.fa-github:hover {
+					background: #f5cdb1;
+				}
+
+			.icon.circle.fa-angellist {
+				background: #bb2a2a;
+				color: #fff;
+			}
+
+				.icon.circle.fa-angellist:hover {
+					background: #e64646;
+				}
+/* 
 			.icon.circle.fa-twitter {
 				background: #70aecd;
 				color: #fff;
@@ -2006,43 +2045,34 @@ input, select, textarea {
 
 				.icon.circle.fa-twitter:hover {
 					background: #7fb7d2;
-				}
+				} */
 
-			.icon.circle.fa-facebook-f {
+			/* .icon.circle.fa-facebook-f {
 				background: #7490c3;
 				color: #fff;
 			}
 
 				.icon.circle.fa-facebook-f:hover {
 					background: #829bc9;
-				}
+				} */
 
-			.icon.circle.fa-google-plus-g {
+			/* .icon.circle.fa-google-plus-g {
 				background: #db6b67;
 				color: #fff;
 			}
 
 				.icon.circle.fa-google-plus-g:hover {
 					background: #df7b77;
-				}
+				} */
 
-			.icon.circle.fa-github {
-				background: #dcad8b;
-				color: #fff;
-			}
-
-				.icon.circle.fa-github:hover {
-					background: #e1b89b;
-				}
-
-			.icon.circle.fa-dribbble {
+			/* .icon.circle.fa-dribbble {
 				background: #da83ae;
 				color: #fff;
 			}
 
 				.icon.circle.fa-dribbble:hover {
 					background: #df93b8;
-				}
+				} */
 
 		.icon.featured {
 			cursor: default;
@@ -2734,8 +2764,11 @@ input, select, textarea {
 		text-align: left;
 	}
 
-	#aboutme table {
-		margin: 0 auto;
+	#aboutme .image-container {
+		display: inline-block;
+		padding: 0.75em 0.75em 0.3em 0.75em;
+		background: rgba(52, 27, 43, 0.45);
+		margin-top: 1em;
 	}
 
 	.contact-link {
