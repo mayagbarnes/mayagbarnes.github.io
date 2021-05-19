@@ -1849,10 +1849,39 @@ input, select, textarea {
 	.image {
 		border: 0;
 		position: relative;
+
+	}
+	/* Additions:*/
+
+	#projects h3 strong {
+		font-size: 1.25em;
 	}
 
+	#projects h3 {
+		margin-top: 0.7em;
+	}
+
+	#projects a {
+		font-size: 1.2em;
+	}
+
+	#projects p {
+		margin: 0 0 1em 0;
+	}
+
+	#projects .image {
+		/* border: 0; */
+		position: relative;
+		border: 0.1em solid lightgray;
+	}
+	#projects .image:hover {
+		box-shadow: 0.05em 0.05em 0.2em 0.1em  gray;
+	}
+
+	/* End*/
+
 		.image:before {
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			content: '';
 			height: 100%;
 			left: 0;
