@@ -1952,7 +1952,8 @@ input, select, textarea {
 /* Icon */
 
 	.fa-envelope-open-text {
-		font-size: 2.5em;
+		font-size: 2em;
+		margin-bottom: 0.5em;
 	}
 
 	.icon {
@@ -2298,8 +2299,13 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
-		padding: 5em;
+		/* margin-bottom: 5em; */
+		/* padding: 5em; */
+
+		/* Additions */
+		margin-bottom: 4em;
+		padding: 3em;
+
 	}
 
 		.wrapper.style1 {
@@ -2762,6 +2768,7 @@ input, select, textarea {
 	#aboutme p .bold {
 		font-size: 1em;
 		text-align: left;
+		/* color: white; */
 	}
 
 	#aboutme .image-container {
@@ -2771,8 +2778,35 @@ input, select, textarea {
 		margin-top: 1em;
 	}
 
+	#aboutme .contact-title strong {
+		font-size: 1.3em;
+	}
+
+	#aboutme .contact-title {
+		margin-top: 2em;
+	}
+
+	.contact-info {
+		font-weight: 300;
+		color: black;
+	}
+
+	.contact-info .fa-envelope {
+		font-size: 1.5em;
+	}
+
+	.contact-info .fa-linkedin {
+		color: #2867B2;
+		font-size: 1.6em;
+	}
+
+	.contact-info .fa-github-square {
+		font-size: 1.6em;
+		color: black;
+	}
+
+
 	.contact-link {
-		/* border-bottom: none; */
 		color: black;
 	}
 
@@ -2792,6 +2826,15 @@ input, select, textarea {
 
 		#cta header {
 			margin-bottom: 2em;
+		}
+
+		#cta h2 {
+			text-transform:none ;
+			font-size: 2.25em;
+		}
+
+		#cta p {
+			font-size: 1.45em;
 		}
 
 /* Footer */
