@@ -1922,7 +1922,7 @@ input, select, textarea {
 
 	#skills .image.featured {
 		display: inline-block;
-		width: 48%;
+		width: 30%;
 		background-color: white;
 	}
 
@@ -2678,13 +2678,16 @@ input, select, textarea {
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					font-size: 2em;
+					/* font-size: 2em; */
 					font-weight: 900;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					text-transform: uppercase;
+					/* text-transform: uppercase; */
+					/* Additions */
+					font-size: 1.6em;
+					/* text-transform: capitalize; */
 				}
 
 			#banner .inner p {
@@ -2762,7 +2765,6 @@ input, select, textarea {
 		color: #645862;
 		font-size: 1.4em;
 		margin: 1em 0 1em 0;
-
 	}
 
 	#aboutme p .bold {
@@ -2775,7 +2777,11 @@ input, select, textarea {
 		display: inline-block;
 		padding: 0.75em 0.75em 0.3em 0.75em;
 		background: rgba(52, 27, 43, 0.45);
-		margin-top: 1em;
+	}
+
+	#aboutme img {
+		width: 12em;
+		height: 12em;
 	}
 
 	#aboutme .contact-title strong {
@@ -2804,7 +2810,6 @@ input, select, textarea {
 		font-size: 1.6em;
 		color: black;
 	}
-
 
 	.contact-link {
 		color: black;
