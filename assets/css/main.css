@@ -1853,6 +1853,10 @@ input, select, textarea {
 	}
 	/* Additions:*/
 
+	#projects h2 {
+		margin-bottom: 0.4em;
+	}
+
 	#projects h3 strong {
 		font-size: 1.25em;
 	}
@@ -1917,7 +1921,7 @@ input, select, textarea {
 			}
 
 	#skills h2 {
-		margin-bottom: 0.5em;
+		margin-bottom: 0.4em;
 	}
 
 	#skills .image.featured {
@@ -1996,7 +2000,7 @@ input, select, textarea {
 			border: 0;
 			border-radius: 100%;
 			display: inline-block;
-			font-size: 1.25em;
+			/* font-size: 1.25em; */
 			height: 2.25em;
 			left: 0;
 			line-height: 2.25em;
@@ -2675,19 +2679,21 @@ input, select, textarea {
 				padding: 3px 0 3px 0;
 			}
 
+				/* Removed: */
+				/* font-size: 2em; */
+				/* text-transform: uppercase; */
+
 				#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
-					/* font-size: 2em; */
 					font-weight: 900;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					/* text-transform: uppercase; */
 					/* Additions */
 					font-size: 1.6em;
-					/* text-transform: capitalize; */
+					text-transform: capitalize;
 				}
 
 			#banner .inner p {
@@ -2728,7 +2734,9 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		/* padding: 7em 0; */
+		padding: 2em 0;
+
 	}
 
 	#main h2 {
@@ -2792,10 +2800,18 @@ input, select, textarea {
 		margin-top: 2em;
 	}
 
-	.contact-info {
+	#aboutme .contact-info {
+		margin: 0;
 		font-weight: 300;
 		color: black;
 	}
+
+	/* .contact-info {
+		margin: 0.5em 0 0.5em 0;
+		font-weight: 300;
+		color: black;
+	} */
+
 
 	.contact-info .fa-envelope {
 		font-size: 1.5em;
@@ -2804,11 +2820,19 @@ input, select, textarea {
 	.contact-info .fa-linkedin {
 		color: #2867B2;
 		font-size: 1.6em;
+		margin-top: 0.75em;
 	}
 
 	.contact-info .fa-github-square {
 		font-size: 1.6em;
 		color: black;
+		margin-top: 0.75em;
+	}
+
+	.contact-info .fa-angellist {
+		font-size: 1.6em;
+		color: black;
+		margin-top: 0.75em;
 	}
 
 	.contact-link {
@@ -2825,7 +2849,7 @@ input, select, textarea {
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
-		padding: 5em;
+		padding: 2em;
 		text-align: center;
 	}
 
@@ -2834,12 +2858,12 @@ input, select, textarea {
 		}
 
 		#cta h2 {
-			/* text-transform: none; */
-			font-size: 2.1em;
+			text-transform: none;
+			font-size: 2em;
 		}
 
 		#cta p {
-			font-size: 1.45em;
+			font-size: 1.4em;
 		}
 
 /* Footer */
@@ -3400,7 +3424,7 @@ input, select, textarea {
 		/* Icon */
 
 			.icon.circle {
-				font-size: 1em;
+				font-size: 1.75em;
 			}
 
 		/* Button */
