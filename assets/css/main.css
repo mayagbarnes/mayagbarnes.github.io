@@ -2428,7 +2428,7 @@ input, select, textarea {
 			font-weight: 900;
 			margin: 0;
 			/* Addition: */
-			font-size: 1.4em;
+			font-size: 1.3em;
 			/* padding: 0.2em 0em; */
 		}
 
@@ -2447,6 +2447,7 @@ input, select, textarea {
 			#header nav ul {
 				list-style: none;
 				padding-left: 0;
+				
 			}
 
 				#header nav ul li {
@@ -2464,7 +2465,7 @@ input, select, textarea {
 						color: inherit;
 						display: inline-block;
 						line-height: 1em;
-						padding: 0.6em 0.75em;
+						padding: 0.5em 0.5em;
 						text-decoration: none;
 					}
 
@@ -2509,6 +2510,7 @@ input, select, textarea {
 						-ms-transition: all 0.2s ease-in-out;
 						transition: all 0.2s ease-in-out;
 						background: rgba(188, 202, 206, 0.15);
+						background-color: lightgray;
 					}
 
 					#header nav ul li.current > a {
@@ -2554,10 +2556,12 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		background: #fff;
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		line-height: 2.25em;
+		/* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075); */
+		box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.075);
+		line-height: 2em;
 		min-width: 13em;
-		padding: 1em 0;
+		/* padding: 1em 0; */
+		padding: .5em 0;
 		text-transform: uppercase;
 		margin-top: calc(-1em + 5px);
 	}
@@ -2579,7 +2583,7 @@ input, select, textarea {
 			}
 
 		.dropotron > li {
-			border-top: solid 2px rgba(124, 128, 129, 0.2);
+			border-top: solid 1.5px rgba(124, 128, 129, 0.2);
 			padding-left: 0;
 		}
 
