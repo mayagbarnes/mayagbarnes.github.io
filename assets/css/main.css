@@ -1859,6 +1859,8 @@ input, select, textarea {
 
 	#projects h3 strong {
 		font-size: 1.25em;
+		color: black;
+
 	}
 
 	#projects h3 {
@@ -1875,6 +1877,8 @@ input, select, textarea {
 
 	#projects p {
 		margin: 0 0 1em 0;
+		font-size: 1.15em;
+		color: black;
 	}
 
 	#projects .image {
